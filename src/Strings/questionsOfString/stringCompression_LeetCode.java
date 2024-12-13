@@ -23,7 +23,7 @@ public class stringCompression_LeetCode {
 
     char[] chars = { 'a', 'a', 'b', 'b', 'c', 'c', 'c', 'e', 'e', 'e', 'e', 'e' };
 
-    String ans = "";
+    StringBuilder ans = new StringBuilder("");
 
     int i = 0;
     int j = 0;
@@ -36,20 +36,20 @@ public class stringCompression_LeetCode {
       else {
         // yaha pae phele humnae 'ans' empty string mae character add kiya hai aur aub
         // hum '+' operator sae length add karenge
-        ans += chars[i];
+        ans.append(chars[i]);
         int len = j - i; // finding particular char length
 
         // condition to check if length of any char is more than 1 then only we add
         // length after the char
         if (len > 1)
-          ans += len;
+          ans.append(len);
         i = j;
       }
     }
-    ans += chars[i];
+    ans.append(chars[i]);
     int len = j - i;
     if (len > 1)
-      ans += len;
+      ans.append(len);
     System.out.println(ans);
 
   }
