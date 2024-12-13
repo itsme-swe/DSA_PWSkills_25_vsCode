@@ -16,7 +16,7 @@ public class builtInSortFunction {
 
     System.out.println();
 
-    Arrays.sort(arr);
+    Arrays.sort(arr); // Java built-in Sort Function
 
     System.out.println("Sorted Array :");
 
