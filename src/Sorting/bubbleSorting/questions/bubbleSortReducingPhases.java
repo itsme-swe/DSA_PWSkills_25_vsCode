@@ -1,6 +1,6 @@
 package Sorting.bubbleSorting.questions;
 
-public class bubbleSortOptimizedSol {
+public class bubbleSortReducingPhases {
 
   public static void main(String[] args) {
 
