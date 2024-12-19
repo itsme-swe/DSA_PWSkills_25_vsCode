@@ -14,7 +14,7 @@ public class basicSorting {
     for (int i = 0; i < n - 1; i++) {
 
       int minVal = Integer.MAX_VALUE;
-      int minIndex = -1;
+      int minIndex = i;
 
       for (int j = i; j < n; j++) {
 
