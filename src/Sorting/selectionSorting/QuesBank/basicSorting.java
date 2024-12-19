@@ -23,7 +23,7 @@ public class basicSorting {
         if (arr[j] < minVal) {
           minVal = arr[j];
           minIndex = j;
-        }
+        }  
       }
 
       swap(arr, i, minIndex); // Swap the smallest value with the first unsorted element
