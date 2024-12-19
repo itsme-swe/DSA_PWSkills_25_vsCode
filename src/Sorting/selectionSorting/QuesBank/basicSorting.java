@@ -11,11 +11,13 @@ public class basicSorting {
     System.out.print("Unsorted Array: ");
     printArray(arr);
 
+    // Loop through the array (except the last element)
     for (int i = 0; i < n - 1; i++) {
 
-      int minVal = Integer.MAX_VALUE;
-      int minIndex = i;
+      int minVal = Integer.MAX_VALUE; // Assume the smallest value is the largest possible number
+      int minIndex = i; // Assume the first unsorted element is the smallest
 
+      // Loop through the unsorted part of the array
       for (int j = i; j < n; j++) {
 
         if (arr[j] < minVal) {
@@ -24,7 +26,7 @@ public class basicSorting {
         }
       }
 
-      swap(arr, i, minIndex);
+      swap(arr, i, minIndex); // Swap the smallest value with the first unsorted element
 
     }
 
