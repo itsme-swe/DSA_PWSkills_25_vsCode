@@ -40,3 +40,5 @@ public class findUpperBound {
   }
 
 }
+
+/* 🔸 The ub index of target x is: 5 */
