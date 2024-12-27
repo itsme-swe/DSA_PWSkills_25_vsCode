@@ -29,15 +29,6 @@ public class searchInRotatedArray {
 
   }
 
-  public static void printArray(int[] arr) {
-
-    for (int ele : arr) {
-      System.out.print(ele + " ");
-    }
-    System.out.println();
-
-  }
-
   public static int search(int[] nums, int target) {
 
     int n = nums.length;
